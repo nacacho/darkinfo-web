@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dark Info | Academia de Ciberseguridad</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<!-- MENU LATERAL -->
+
+<div id="menu-lateral" class="menu-lateral">
+
+<div class="perfil-menu">
+
+<img src="logo.png" alt="Logo" class="perfil-img">
+
+<h2>Dark Info</h2>
+
+<p>Acceso Premium</p>
+
+</div>
+
+<a href="#inicio">🏠 Inicio</a>
+
+<a href="#cursos">📚 Cursos</a>
+
+<a href="vip.html">👑 VIP</a>
+
+<a href="#contacto">📞 Contacto</a>
+
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo-container" onclick="toggleMenu()">
+
+<img src="logo.png" alt="Logo" class="logo-img">
+
+<h1>DARK <span>INFO</span></h1>
+
+</div>
+
+<nav>
+
+<a href="#inicio">Inicio</a>
+
+<a href="#cursos">Cursos</a>
+
+<a href="vip.html">VIP</a>
+
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section id="inicio" class="hero">
+
+<div class="overlay">
+
+<div class="estado-online">
+
+● 2,847 usuarios conectados
+
+</div>
+
+<div class="terminal">
+
+<div id="terminal-text"></div>
+
+</div>
+
+<h2>
+
+Bienvenido a
+
+<span class="neon">
+
+Dark Info
+
+</span>
+
+</h2>
+
+<p>
+
+Aprende Pentesting,
+Linux,
+Redes,
+Forense Digital,
+Cloud Security
+y Ciberseguridad Profesional.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#cursos" class="btn">
+
+Explorar Cursos
+
+</a>
+
+<a href="vip.html" class="btn-card">
+
+Acceso VIP
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VIP -->
+
+<section id="vip" class="vip-banner">
+
+<div class="vip-box">
+
+<h2>
+
+👑 MEMBRESÍA VIP
+
+</h2>
+
+<p>
+
+Acceso completo a todos los cursos,
+actualizaciones futuras,
+soporte premium
+y contenido exclusivo.
+
+</p>
+
+<div class="vip-price">
+
+$99 USD
+
+</div>
+
+<a href="pagos.html" class="btn-card">
+
+OBTENER VIP
+
+</a>
+
+</div>
+
+</section>
+
+<!-- CURSOS -->
+
+<section id="cursos">
+
+<h2 class="titulo">
+
+🔥 Cursos Disponibles 🔥
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🛡 Pentesting Profesional</h3>
+
+<p>
+
+Auditorías reales,
+enumeración,
+explotación y post-explotación.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Redes y Servidores</h3>
+
+<p>
+
+Infraestructura,
+routers,
+switches y servidores.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>🐧 Linux Master</h3>
+
+<p>
+
+Linux desde cero
+hasta administración avanzada.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+<div class="card">
+
+<h3>💀 Malware y Forense</h3>
+
+<p>
+
+Análisis de malware,
+ransomware,
+forense digital
+y respuesta a incidentes.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>☁ Cloud Security</h3>
+
+<p>
+
+Seguridad en AWS,
+Azure y Google Cloud.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>📱 Hacking Móvil</h3>
+
+<p>
+
+Seguridad Android,
+análisis de aplicaciones
+y auditorías móviles.
+
+</p>
+
+<a href="pagos.html" class="btn-card">
+
+Adquirir Curso
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ESTADISTICAS -->
+
+<section class="estadisticas">
+
+<div class="stat-box">
+
+<h2 id="contador-alumnos">0</h2>
+
+<p>Alumnos</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2 id="contador-cursos">0</h2>
+
+<p>Cursos</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2 id="contador-satisfaccion">0</h2>
+
+<p>% Satisfacción</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>24/7</h2>
+
+<p>Soporte</p>
+
+</div>
+
+</section>
+
+<!-- TESTIMONIOS -->
+
+<section class="testimonios">
+
+<h2 class="titulo">
+
+⭐ Opiniones de la Comunidad ⭐
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Juan M.</h3>
+
+<p>
+
+Excelente plataforma.
+Aprendí muchísimo
+sobre Linux y Pentesting.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Carlos R.</h3>
+
+<p>
+
+Contenido actualizado,
+explicaciones claras
+y laboratorios prácticos.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Ana P.</h3>
+
+<p>
+
+Muy buena experiencia.
+Los cursos son profesionales
+y fáciles de seguir.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section id="contacto">
+
+<div class="contacto-box">
+
+<h2>
+
+📞 Contacto Directo
+
+</h2>
+
+<p>
+
+WhatsApp:
+978189319
+
+</p>
+
+<p>
+
+Correo:
+mododemo010@mail.com
+
+</p>
+
+<p>
+
+Consultas VIP,
+soporte y asesoría personalizada.
+
+</p>
+
+<div class="hero-buttons">
+
+<a
+href="https://wa.me/51978189319?text=Hola%20Dark%20Info,%20quiero%20informaci%C3%B3n"
+class="btn">
+
+📱 WhatsApp
+
+</a>
+
+<a href="vip.html" class="btn-card">
+
+👑 Ver VIP
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+
+© 2026 Dark Info
+
+</p>
+
+<p>
+
+Todos los derechos reservados
+
+</p>
+
+</footer>
+
+<!-- BOTON FLOTANTE -->
+
+<a
+href="https://wa.me/51978189319"
+class="whatsapp-float">
+
+💬
+
+</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
